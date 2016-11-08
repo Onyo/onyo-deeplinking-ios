@@ -16,8 +16,6 @@ Pod::Spec.new do |s|
 
     s.dependency 'Branch'
 
-    s.default_subspec = 'Default'
-
     s.source_files = "OnyoDeepLink/**/*.{swift}"
 
 end

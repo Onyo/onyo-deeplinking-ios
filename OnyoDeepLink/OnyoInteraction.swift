@@ -34,6 +34,7 @@ import Branch
 extension OnyoInteraction {
     
     private static func useBranchInteraction(aggregatorId: String, viewController: UIViewController? = nil) {
+        Branch.getInstance("key_live_peBdrMz5d6ADpHm6Cn1KHfecuwn4sVxT")
         let branchUniversalObject: BranchUniversalObject = BranchUniversalObject(canonicalIdentifier: "item/1")
         branchUniversalObject.title = "Open Aggregator Link"
         branchUniversalObject.contentDescription = "Passing aggregatorId"
